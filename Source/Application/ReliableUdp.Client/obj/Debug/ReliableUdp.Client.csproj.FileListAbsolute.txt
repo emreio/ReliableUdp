@@ -1,0 +1,10 @@
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Client.exe.config
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Client.exe
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Client.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\obj\Debug\ReliableUdp.Client.exe
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\obj\Debug\ReliableUdp.Client.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Common.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Utilities.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Common.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\bin\Debug\ReliableUdp.Utilities.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\Application\ReliableUdp.Client\obj\Debug\ReliableUdp.Client.csprojResolveAssemblyReference.cache

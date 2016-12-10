@@ -1,0 +1,12 @@
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\ReliableUdp.ImageAcquisition.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\ReliableUdp.ImageAcquisition.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.Video.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.Video.xml
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.Video.DirectShow.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\bin\Debug\AForge.xml
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\obj\Debug\ReliableUdp.ImageAcquisition.csprojResolveAssemblyReference.cache
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\obj\Debug\ReliableUdp.ImageAcquisition.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ImageAcquisition\obj\Debug\ReliableUdp.ImageAcquisition.pdb

@@ -1,0 +1,4 @@
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ReliableUdp.Connection\bin\Debug\ReliableUdp.Connection.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ReliableUdp.Connection\bin\Debug\ReliableUdp.Connection.pdb
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ReliableUdp.Connection\obj\Debug\ReliableUdp.Connection.dll
+C:\Users\ekantar\Documents\Visual Studio 2013\Projects\ReliableUdp\Source\ReliableUdp.Connection\obj\Debug\ReliableUdp.Connection.pdb
