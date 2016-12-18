@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliableUdp.Server", "Sourc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliableUdp.Client", "Source\Application\ReliableUdp.Client\ReliableUdp.Client.csproj", "{E16709F2-E458-4E04-A6A2-DF4296FF0505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliableUdp.ClientWinForm", "Source\Application\ReliableUdp.ClientWinForm\ReliableUdp.ClientWinForm.csproj", "{ABDF2D38-FCAD-4C9C-AB92-C79FB6E634EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{E16709F2-E458-4E04-A6A2-DF4296FF0505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16709F2-E458-4E04-A6A2-DF4296FF0505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16709F2-E458-4E04-A6A2-DF4296FF0505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDF2D38-FCAD-4C9C-AB92-C79FB6E634EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF2D38-FCAD-4C9C-AB92-C79FB6E634EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF2D38-FCAD-4C9C-AB92-C79FB6E634EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF2D38-FCAD-4C9C-AB92-C79FB6E634EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,5 +144,6 @@ Global
 		{EFC71D6C-1548-4258-A567-C5647AB9EAF8} = {EA5D0F48-0800-4C86-B327-0BA6873A3C2C}
 		{23BA37C5-33DA-44B7-B693-9483C0BB971A} = {EFC71D6C-1548-4258-A567-C5647AB9EAF8}
 		{E16709F2-E458-4E04-A6A2-DF4296FF0505} = {EFC71D6C-1548-4258-A567-C5647AB9EAF8}
+		{ABDF2D38-FCAD-4C9C-AB92-C79FB6E634EB} = {EFC71D6C-1548-4258-A567-C5647AB9EAF8}
 	EndGlobalSection
 EndGlobal

@@ -24,7 +24,9 @@ namespace ReliableUdp.Transmission
         public void Push(StreamBufferItem item)
         {
             bag.Add(item);
-            bag.RemoveRange(0, 1);
+            
+            if (bag.Count > 100)
+                bag.RemoveRange(0, 1);
         }
 
         public StreamBufferItem Find(ulong id)

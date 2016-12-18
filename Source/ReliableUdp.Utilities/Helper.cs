@@ -18,6 +18,8 @@ namespace ReliableUdp.Transmission.Utilities
             {
                 BinaryFormatter formatter = new BinaryFormatter();
 
+                ms.Seek(0, SeekOrigin.Begin);
+
                 return (Message)formatter.Deserialize(ms);
             }
         }

@@ -41,6 +41,14 @@ namespace ReliableUdp.Transmission
 
         protected virtual void AcceptClient(ClientInformation client)
         {
+            Message msg = new Message();
+            msg.Header = new MessageHeader();
+            msg.Header.ClientID = client.ID;
+
+            Console.WriteLine("Client connected: {0}", client.ClientIP.ToString());
+            Console.WriteLine("Client connected: {0}", client.ID);
+            SendMessageTo(msg, client.ClientIP);
+
             lock (lockObj)
             {
                 client.ClientIP = client.ClientIP;
@@ -50,12 +58,6 @@ namespace ReliableUdp.Transmission
 
                 clients.Add(client.ID, client);
             }
-
-            Message msg = new Message();
-            msg.Header = new MessageHeader();
-            msg.Header.ClientID = client.ID;
-
-            SendMessageTo(msg, client.ClientIP);
         }
 
         protected virtual bool SendMessageToAsync(Message message, IPEndPoint remoteIP)
@@ -106,6 +108,8 @@ namespace ReliableUdp.Transmission
                         if (clients.ContainsKey(id))
                             clients.Remove(id);
                     }
+
+                    Console.WriteLine("Client disconnected {0}", id);
                 }
             }
         }

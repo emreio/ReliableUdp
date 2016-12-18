@@ -19,11 +19,14 @@ namespace ReliableUdp.Client
 
         static void Main(string[] args)
         {
-            client = new UdpClient(5656);
+            int localPort = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["LocalPort"]);
+
+            client = new UdpClient(localPort);
 
             if (clientID == null)
             {
                 AcquireClientID();
+                Console.WriteLine("ClientID {0}", clientID);
             }
 
             while (true)
@@ -80,7 +83,7 @@ namespace ReliableUdp.Client
 
             var responseMessage = Helper.DeserializeMessage(response);
 
-            if (responseMessage != null && responseMessage.Body != null && responseMessage.Header != null)
+            if (responseMessage != null && responseMessage.Header != null)
             {
                 clientID = responseMessage.Header.ClientID;
             }

@@ -41,6 +41,8 @@ namespace ReliableUdp.Connection
 
             AssignLocalEndPoint();
 
+            Console.WriteLine(localEndPoint.ToString());
+
             if (this.options.Listen)
                 Bind(localEndPoint);
 

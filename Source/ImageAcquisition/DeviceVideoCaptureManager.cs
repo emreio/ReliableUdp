@@ -25,8 +25,8 @@ namespace ReliableUdp.ImageAcquisition
         {
             add
             {
-                if (!newFrameHandler.GetInvocationList().Contains(value))
-                    newFrameHandler += value;
+                //if (!newFrameHandler.GetInvocationList().Contains(value))
+                newFrameHandler += value;
             }
 
             remove
@@ -70,7 +70,18 @@ namespace ReliableUdp.ImageAcquisition
             {
                 if (string.IsNullOrEmpty(deviceName)) throw new ArgumentNullException("Please provide Device Name");
 
-                videoCaptureDevice = new VideoCaptureDevice(deviceName);
+                string monikerName = string.Empty;
+
+                foreach (FilterInfo item in filterCollection)
+                {
+                    if (item.Name == deviceName)
+                    {
+                        monikerName = item.MonikerString;
+                        break;
+                    }
+                }
+
+                videoCaptureDevice = new VideoCaptureDevice(monikerName);
 
                 videoCaptureDevice.NewFrame += videoCaptureDevice_NewFrame;
 

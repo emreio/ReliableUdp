@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ImageAcquisition\ReliableUdp.ImageAcquisition.csproj">
+      <Project>{fe96c494-15e1-4607-aeb1-5a3ce9a4c14d}</Project>
+      <Name>ReliableUdp.ImageAcquisition</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ReliableUdp.Common\ReliableUdp.Common.csproj">
       <Project>{894382f7-f655-457f-997e-056244b9eadd}</Project>
       <Name>ReliableUdp.Common</Name>
